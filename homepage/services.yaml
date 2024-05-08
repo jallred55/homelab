@@ -1,0 +1,31 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Servers:
+    - Unraid - Homelab:
+        icon: unraid.png
+        href: https://10.20.100.10/
+        description: Unraid Server Home Page
+
+    - Proxmox - Playground:
+        icon: proxmox.png
+        href: https://10.20.100.20:8006/
+        description: Proxmox Server Home Page
+
+- Storage:
+    - Synology DS1522+ - Main:
+        icon: synology.png
+        href: https://10.0.39.155/
+        description: Synology Storage - Main
+
+    - Synology DS223j - Backup:
+        icon: synology.png
+        href: https://10.0.75.8/
+        description: Synology Storage - Backup
+
+- Networking:
+    - Unifi UDM Pro:
+        icon: unifi.png
+        href: http://10.0.0.1/
+        description: Unifi UDM Pro Home Page
