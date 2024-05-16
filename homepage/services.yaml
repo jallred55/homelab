@@ -1,16 +1,32 @@
+
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/services
 
 - Servers:
-    - Unraid - Homelab:
+    - Unraid - MilkyWay:
         icon: unraid.png
         href: https://10.20.100.10/
         description: Unraid Server Home Page
 
-    - Proxmox - Playground:
+    - Proxmox - Andromeda:
         icon: proxmox.png
         href: https://10.20.100.20:8006/
+        description: Proxmox Server Home Page
+
+    - Proxmox HA Cluster - Alvin:
+        icon: proxmox.png
+        href: https://10.20.100.110:8006/
+        description: Proxmox Server Home Page
+
+    - Proxmox HA Cluster - Simon:
+        icon: proxmox.png
+        href: https://10.20.100.120:8006/
+        description: Proxmox Server Home Page
+
+    - Proxmox HA Cluster - Theodore:
+        icon: proxmox.png
+        href: https://10.20.100.130:8006/
         description: Proxmox Server Home Page
 
 - Storage:
@@ -24,10 +40,10 @@
         href: https://10.0.75.8/
         description: Synology Storage - Backup
 
-    - TrueNAS Scale - Proxmox:
+    - TrueNAS Core - Proxmox:
         icon: truenas.png
-        href: https://10.20.200.220/
-        description: TrueNAS Scale VM
+        href: https://10.20.200.210/
+        description: TrueNAS Core VM to share amongst VMs
 
 - Networking:
     - Unifi UDM Pro:

@@ -5,7 +5,8 @@ steps to start install and start up Proxmox
 3. ssh into proxmox server
 4. $ nano /etc/apt/sources.list
     add: 
-    #not for production use deb http://download.proxmox.com/debian buster pve-no-subscription
+    #not for production use 
+    deb http://download.proxmox.com/debian bookworm pve-no-subscription
 5. $ nano /etc/apt/sources.list.d/pve-enterprise.list
     comment out the line for enterprise
 6. $ apt-get update

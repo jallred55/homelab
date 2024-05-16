@@ -25,7 +25,7 @@ in truenas under the nfs you need to set mapall user to root and map all group t
 in the vm create a mount folder i.e. /nfs/pve-vm-truenas_storage
 
 update fstab (/etc/fstab) with the following:
-    10.20.200.210:/mnt/pve-vm-truenas_storage               /nfs/pve-vm-truenas_storage      nfs auto,nofail,noatime,nolock,intr,tcp,actimeo=1800 0 0
+    10.20.200.210:/mnt/pvm-truenas-pool               /home/james/tnas-mnt/      nfs auto,nofail,noatime,nolock,intr,tcp,actimeo=1800 0 0
 
 testing to see if it is mounted: 
     $ df -h
